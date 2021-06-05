@@ -17,9 +17,11 @@ In this project, there are three regression models can be run :
 - You can also run this program with the Python compiler in you computer.
 - But you have to make sure numpy and pandas package have been installed beforehand.
 ```
-You can run Linear Regression model by double click LinearRegression.py
-You can run Quadratic Regression model by double click QuadraticRegression.py
-You can run Cubic Regression model by double click CubicRegression.py
+You can run Linear Regression model by double clicking LinearRegression.py
+
+You can run Quadratic Regression model by double clicking QuadraticRegression.py
+
+You can run Cubic Regression model by double clicking CubicRegression.py
 ```
 - Result csv files show have been saved to current directory.
 
@@ -35,7 +37,9 @@ All models program should be able to run in Visual Studio Code immediately if yo
 To run Linear, Quadratic, and Cubic Regression model:
 ```
 python ./LinearRegression.py
+
 python ./QuadraticRegression.py
+
 python ./CubicRegression.py
 ```
 The result csv files "result_Linear_Reg.csv", "result_Quadratic_Reg.csv", "result_Cubic_Reg.csv" should have been saved to current directory.
