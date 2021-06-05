@@ -18,27 +18,21 @@ Settings.json file for Visual Studio Code has been include in the folder.
 
 All models program should be able to run in Visual Studio Code immediately if you have download Python in Visual Studio Code.
 
-First open Visual Studio Code, opne a new folder, then select our folder "CS-145-Project".
+1. First open Visual Studio Code, opne a new folder, then select our folder "CS-145-Project".
 
-After opening the folder in Visual Studio Code, open the terminal in Visual Studio Code.
+2. After opening the folder in Visual Studio Code, open the terminal in Visual Studio Code.
 
-To run Linear Regression model:
+To run Linear, Quadratic, and Cubic Regression model:
 ```
 python ./LinearRegression.py
 ```
-The result csv file "result_Linear_Reg.csv" should be save into the current directory.
-
-To run Quadratic Regression model:
 ```
 python ./QuadraticRegression.py
 ```
-The result csv file "result_Quadratic_Reg.csv" should be save into the current directory.
-
-To run Cubic Regression model:
 ```
 python ./CubicRegression.py
 ```
-The result csv file "result_Cubic_Reg.csv" should be save into the current directory.
+The result csv files "result_Linear_Reg.csv", "result_Quadratic_Reg.csv", "result_Cubic_Reg.csv" should have been saved to current directory.
 
 csv files created above are in format 'submssion.csv', in which data about States and Date will not be included.
 
@@ -49,6 +43,13 @@ If you wan to have result in format 'test.csv' (data about States and Date will 
 
 Now reuslt should be in format 'test.csv'.
 
-The "SIRModel.py" is not a runable program, but there are functions in it which are our attempt on SIR model.
+## SIRModel.py
+- The "SIRModel.py" is not a runable program, but there are functions in it which are our attempt on SIR model.
+- Unfortunately, we failed to implement SIR bcause we were not able to make good prediction on the missing data.
 
-Unfortunately, we failed to implement SIR bcause we were not able to make good prediction on the missing data.
+## Visualizations to Evaluate Linear Regression Results.ipynb
+- This is an example of how we exaluate our results by print tables and graphs.
+
+## Run by localy downloaded Python
+- You can also run this program with the Python compiler in you computer.
+- But you have to make sure numpy and pandas package have been installed beforehand.
