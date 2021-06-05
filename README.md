@@ -43,13 +43,13 @@ If you wan to have result in format 'test.csv' (data about States and Date will 
 
 Now reuslt should be in format 'test.csv'.
 
-## SIRModel.py
+## "SIRModel.py"
 - The "SIRModel.py" is not a runable program, but there are functions in it which are our attempt on SIR model.
 - Unfortunately, we failed to implement SIR bcause we were not able to make good prediction on the missing data.
 
-## Visualizations to Evaluate Linear Regression Results.ipynb
+## "Visualizations to Evaluate Linear Regression Results.ipynb"
 - This is an example of how we exaluate our results by print tables and graphs.
 
-## Run by localy downloaded Python
+## Run by locally downloaded Python
 - You can also run this program with the Python compiler in you computer.
 - But you have to make sure numpy and pandas package have been installed beforehand.
