@@ -6,7 +6,7 @@ import pandas as pd
 # Extract subset of database to file based on the STATE and Field
 # Ex. makeCSVfile (f.txt, Alabama, Confirmed) will extract the confirmed data of Alabama, save to f.txt.
 def makeCSVfile (filename, StateName, field):
-    df = pd.read_csv('train_trendency.csv')
+    df = pd.read_csv('./data/train_trendency.csv')
     df = df[df['Province_State'].isin([StateName])]
     df = df[field]
     df.to_csv(filename)
@@ -16,7 +16,7 @@ def makeCSVfile (filename, StateName, field):
 # calcualte the difference between every two consecutive days (which is dF/dt, where dt = 1 day)
 # save the result to f.txt.
 def makeCSVfile_diff (filename, StateName, field):
-    df = pd.read_csv('train_trendency.csv')
+    df = pd.read_csv('./data/train_trendency.csv')
     df = df[df['Province_State'].isin([StateName])]
     df = df[field]
     pf = df.values
@@ -74,7 +74,7 @@ def RegressionFunctionParams(datasetNpArr):
     return param
 
 def LinearReg_30DaysPredict(StateName, filed):
-    pf =  state_field('train_trendency.csv', StateName, filed)
+    pf =  state_field('./data/train_trendency.csv', StateName, filed)
     pf = pf[-10:]
     params = RegressionFunctionParams(pf)
     predict = []
@@ -87,8 +87,8 @@ def LinearReg_30DaysPredict(StateName, filed):
 # output_format = 'test' => save data of Province_State, Date, Confirmed and Deaths
 # output_format = 'submission' => only save data of Confirmed and Deaths
 def LinearRegModel_resultSaveTo (filename, output_format):
-    df = pd.read_csv('train_trendency.csv')
-    date_list = state_field('test.csv', 'Alabama', 'Date')
+    df = pd.read_csv('./data/train_trendency.csv')
+    date_list = state_field('./data/test.csv', 'Alabama', 'Date')
     df_date = pd.DataFrame(date_list, columns = ['Date'])
     states = df['Province_State'][0:50]
     output = []
