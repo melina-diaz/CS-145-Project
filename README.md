@@ -26,6 +26,12 @@ You can run Cubic Regression model by double clicking CubicRegression.py
 - Result csv files show have been saved to current directory.
 
 ## Run by Visual Studio Code
+
+### evnironment setting
+1. First open Visual Studio Code, opne a new folder, then select our folder "CS-145-Project".
+
+2. After opening the folder in Visual Studio Code, open the terminal in Visual Studio Code.
+
 "package-lock.json" and "node_modules" for Visual Studio Code has been include in the folder.
 
 All models program should be able to run in Visual Studio Code immediately if you have download Python(Extension) in Visual Studio Code.
@@ -34,15 +40,15 @@ Sometime you may need to select Python Interpreter first, you can do it by:
 ```
 Ctrl+Shift+P
 ```
-search and select yout python environment. 
+search and select your python environment. 
 
 More information about python enviroment in Visual Studio Code: [https://code.visualstudio.com/docs/python/environments]
 
-1. First open Visual Studio Code, opne a new folder, then select our folder "CS-145-Project".
+### run programs
 
-2. After opening the folder in Visual Studio Code, open the terminal in Visual Studio Code.
+After environment setting:
 
-To run Linear, Quadratic, and Cubic Regression model:
+To run Linear, Quadratic, or Cubic Regression model:
 ```
 python ./LinearRegression.py
 
@@ -56,7 +62,15 @@ npm install
 ```
 progeams should be run after packages installation.
 
-The result csv files "result_Linear_Reg.csv", "result_Quadratic_Reg.csv", "result_Cubic_Reg.csv" should have been saved to current directory.
+Results should have been saved in csv files 
+```
+"result_Linear_Reg.csv" 
+
+"result_Quadratic_Reg.csv" 
+
+"result_Cubic_Reg.csv" 
+```
+which will locate at current directory.
 
 csv files created above are in format 'submssion.csv', in which data about States and Date will not be included.
 
