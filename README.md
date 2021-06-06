@@ -36,6 +36,12 @@ You can run Cubic Regression model by double clicking CubicRegression.py
 
 All models program should be able to run in Visual Studio Code immediately if you have download Python(Extension) in Visual Studio Code.
 
+Try:
+```
+python ./LinearRegression.py
+```
+If there is no error occur, please ignore the following step, and skip to "run programs".
+
 Sometime you may need to select Python Interpreter first, you can do it by:
 ```
 Ctrl+Shift+P
@@ -46,9 +52,7 @@ More information about python enviroment in Visual Studio Code: [https://code.vi
 
 ### run programs
 
-After environment setting:
-
-To run Linear, Quadratic, or Cubic Regression model:
+To run Linear, Quadratic, or Cubic Regression model
 ```
 python ./LinearRegression.py
 
