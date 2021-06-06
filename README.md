@@ -14,7 +14,7 @@ In this project, there are three regression models can be run :
 - Cubic Regression model
 
 ## Run by locally downloaded Python
-- You can also run this program with the Python compiler in you computer.
+- You can run this program with the Python compiler in you computer.
 - But you have to make sure numpy and pandas package have been installed beforehand.
 ```
 You can run Linear Regression model by double clicking LinearRegression.py
@@ -26,15 +26,33 @@ You can run Cubic Regression model by double clicking CubicRegression.py
 - Result csv files show have been saved to current directory.
 
 ## Run by Visual Studio Code
-Settings.json file for Visual Studio Code has been include in the folder.
 
-All models program should be able to run in Visual Studio Code immediately if you have download Python in Visual Studio Code.
-
+### evnironment setting
 1. First open Visual Studio Code, opne a new folder, then select our folder "CS-145-Project".
 
 2. After opening the folder in Visual Studio Code, open the terminal in Visual Studio Code.
 
-To run Linear, Quadratic, and Cubic Regression model:
+"package-lock.json" and "node_modules" for Visual Studio Code has been include in the folder.
+
+All models program should be able to run in Visual Studio Code immediately if you have download Python(Extension) in Visual Studio Code.
+
+Try:
+```
+python ./LinearRegression.py
+```
+If there is no error occur, please ignore the following step, and skip to "run programs".
+
+Sometime you may need to select Python Interpreter first, you can do it by:
+```
+Ctrl+Shift+P
+```
+search and select your python environment. 
+
+More information about python enviroment in Visual Studio Code: [https://code.visualstudio.com/docs/python/environments]
+
+### run programs
+
+To run Linear, Quadratic, or Cubic Regression model
 ```
 python ./LinearRegression.py
 
@@ -42,7 +60,21 @@ python ./QuadraticRegression.py
 
 python ./CubicRegression.py
 ```
-The result csv files "result_Linear_Reg.csv", "result_Quadratic_Reg.csv", "result_Cubic_Reg.csv" should have been saved to current directory.
+If there is error, please try:
+```
+npm install
+```
+progeams should be run after packages installation.
+
+Results should have been saved in csv files 
+```
+"result_Linear_Reg.csv" 
+
+"result_Quadratic_Reg.csv" 
+
+"result_Cubic_Reg.csv" 
+```
+which will locate at current directory.
 
 csv files created above are in format 'submssion.csv', in which data about States and Date will not be included.
 
