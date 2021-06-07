@@ -2,10 +2,10 @@
 Class project to predict COVID-19 cases and deaths
 
 ## Team9 Members
-- Jakin Wang (team leader)
+- Diego Fernandez-Salvador (team leader)
 - Melina Diaz
 - Jiyuan Xiao
-- Diego Fernandez-Salvador
+- Jakin Wang
 
 # To Run
 In this project, there are three regression models can be run :
