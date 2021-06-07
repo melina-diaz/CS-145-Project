@@ -70,9 +70,9 @@ If there is error, please try:
 ```
 npm install
 ```
-progeams should be run after packages installation.
+programs should be able to run after packages installation.
 
-Results should have been saved in csv files 
+If programs are run successfully, result data should have been saved in csv files 
 ```
 "result_Linear_Reg.csv" 
 
