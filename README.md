@@ -99,3 +99,4 @@ Now reuslt should be in format 'test.csv'.
 - This is an example of how we exaluate our results by print tables and graphs.
 - Due to some unknown issues, for 3 out of our 9 submissions, the order of data was shuffled after submitting through Kaggle, including the highest score submission.
 - We visualized both the submitted data in Kaggle and the data produced by our programs in thses visualization ipynb files.
+- These files can be opend and viewed in git repository.
