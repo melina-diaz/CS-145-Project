@@ -17,11 +17,11 @@ In this project, there are three regression models can be run :
 - You can run this program with the Python compiler in you computer.
 - But you have to make sure numpy and pandas package have been installed beforehand.
 ```
-You can run Linear Regression model by double clicking LinearRegression.py
+You can run Linear Regression model by double clicking LinearRegression.py file in the folder
 
-You can run Quadratic Regression model by double clicking QuadraticRegression.py
+You can run Quadratic Regression model by double clicking QuadraticRegression.py file in the folder
 
-You can run Cubic Regression model by double clicking CubicRegression.py
+You can run Cubic Regression model by double clicking CubicRegression.py file in the folder
 ```
 - Result csv files show have been saved to current directory.
 
