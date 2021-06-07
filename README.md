@@ -100,3 +100,5 @@ Now reuslt should be in format 'test.csv'.
 - Due to some unknown issues, for 3 out of our 9 submissions, the order of data was shuffled after submitting through Kaggle, including the highest score submission.
 - We visualized both the submitted data from Kaggle (shuffled data) and the data produced by our programs (smooth data) in thses visualization ipynb files.
 - These files can be opend and viewed in git repository.
+- The three Restlts .ipynb are visualizations of smooth data made by program.
+- The three Submission .ipynb are visualizations of shullfed data from Kaggle.
