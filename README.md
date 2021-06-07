@@ -55,10 +55,16 @@ More information about python enviroment in Visual Studio Code: [https://code.vi
 To run Linear, Quadratic, or Cubic Regression model
 ```
 python ./LinearRegression.py
+or
+python3 ./LinearRegression.py
 
 python ./QuadraticRegression.py
+or
+python3 ./QuadraticRegression.py
 
 python ./CubicRegression.py
+or
+python3 ./CubicRegression.py
 ```
 If there is error, please try:
 ```
@@ -89,5 +95,7 @@ Now reuslt should be in format 'test.csv'.
 - The "SIRModel.py" is not a runable program, but there are functions in it which are our attempt on SIR model.
 - Unfortunately, we failed to implement SIR bcause we were not able to make good prediction on the missing data.
 
-## "Visualizations to Evaluate Linear Regression Results.ipynb"
+## "Visualizations to Evaluate Results"
 - This is an example of how we exaluate our results by print tables and graphs.
+- Due to some unknown issues, for 3 out of our 9 submissions, the order of data was shuffled after submitting through Kaggle, including the highest score submission.
+- We visualized both the submitted data in Kaggle and the data produced by our programs in thses visualization ipynb files.
